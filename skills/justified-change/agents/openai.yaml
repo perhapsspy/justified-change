@@ -1,4 +1,4 @@
 interface:
   display_name: "Justified Change"
-  short_description: "Keep code changes proportional, justified, and verifiable"
-  default_prompt: "Use $justified-change to keep this change proportional to the goal, explain the scope, and verify the result."
+  short_description: "Keep change scope necessary, proportional, and verifiable"
+  default_prompt: "Use $justified-change to judge this change scope, include required follow-ups, and verify the result."

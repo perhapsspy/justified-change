@@ -1,6 +1,6 @@
 ---
 name: justified-change
-description: Use for non-trivial code changes to keep implementation, bug fixes, refactors, and review edits proportional to the goal, justified by constraints, and verified without speculative scope
+description: Use for non-trivial code-change planning, implementation, bug fixes, refactors, review edits, and diff reviews where scope decisions such as fields, options, abstractions, or follow-ups must be necessary, goal-proportional, evidence-backed, and verifiable without speculative work
 license: MIT
 metadata:
   author: perhapsspy@gmail.com
@@ -20,6 +20,7 @@ Do the work required to satisfy the goal, including direct follow-up updates, bu
 ## Use / Do Not Use
 
 - Use before non-trivial implementation, bug fix, refactor, or code review edits.
+- Use when a non-trivial code change, plan, or diff needs a scope judgment: what is necessary, what is speculative, which direct follow-ups are required, and how it can be verified.
 - Use when the change could expand into speculative work, broad cleanup, or unnecessary rewrites.
 - Use when necessary follow-up changes could be missed by making the edit too narrow.
 - Use when ambiguity affects implementation choices.
