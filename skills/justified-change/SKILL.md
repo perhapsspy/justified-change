@@ -1,11 +1,6 @@
 ---
 name: justified-change
 description: Use for non-trivial code-change planning, implementation, bug fixes, refactors, review edits, and diff reviews where scope decisions such as fields, options, abstractions, or follow-ups must be necessary, goal-proportional, evidence-backed, and verifiable without speculative work
-license: MIT
-metadata:
-  author: perhapsspy@gmail.com
-  version: '0.1'
-  source_repository: https://github.com/perhapsspy/justified-change
 ---
 
 # Skill: Justified Change
